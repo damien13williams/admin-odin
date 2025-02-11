@@ -54,6 +54,8 @@ body{
 
 .user-info{
     align-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
 }
 
 .ideas{
@@ -125,3 +127,14 @@ h2{
     font-size: 18px; /* Optional: Increase font size */
     border-radius: 5px; /* Optional: Rounded corners */
 }
+
+img{
+    display:block;
+    height:100px;
+    width: 100px;
+    margin-top:20px;
+    margin-left: 50px;
+    align-content: center;
+    object-fit: cover;
+    border-radius: 5px;
+  }
