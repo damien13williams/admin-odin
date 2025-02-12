@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Dashboard</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
     <div class="dashboard">
@@ -12,30 +13,37 @@
             <h2 class="dashboard-header">Dashboard</h2>
             <nav class="dashboard-items">
                 <ul class="dashboard-items">
-                    <li>Home</li>
-                    <li>Profile</li>
-                    <li>Settings</li>
+                    <li><i class="fas fa-home"></i>Home</li>
+                    <li><i class="fas fa-user"></i>Profile</li>
+                    <li><i class="fas fa-cogs"></i>Settings</li>
                 </ul>
             </nav>
         </aside>
 
         <header class="header">
-            <div class="user-info">Welcome, Damien Williams</div>
+            <div class="user-info">
+                <h2 class="welcome-header"><i class="fa-solid fa-circle-user"></i>Welcome, Damien Williams</h2>
+            </div>
+            <div class="search-container">
+                <input type="text" id="search" placeholder="Search...">
+                <button type="submit"><i class="fas fa-search"></i></button>
+            </div>
         </header>
+        
 
         <main class="main-content">
             <section class="projects">
                 <h2>Projects</h2>
-                <div class="project-card">Bucket Game</div>
-                <div class="project-card">Personal Library</div>
+                <div class="project-card"><i class="fa-solid fa-scissors"></i>Hair Stylist Page</div>
+                <div class="project-card"><i class="fa-solid fa-book"></i>Personal Library</div>
             </section>
 
             <section class="ideas">
                 <h2>Ideas</h2>
                 <ul class="ideas-items">
-                    <li>Build a Flappy Bird copy cat</li>
-                    <li>Create a program to track my training in track</li>
-                    <li>Movie review list</li>
+                    <li><i class="fa-solid fa-dove"></i>Build a Flappy Bird copy cat</li>
+                    <li><i class="fa-solid fa-flag-checkered"></i>Create a program to track my training in track</li>
+                    <li><i class="fa-solid fa-film"></i>Movie review list</li>
                 </ul>
             </section>
 
