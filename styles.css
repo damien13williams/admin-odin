@@ -1,15 +1,17 @@
 body{
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
     display: flex;
-
+    background-color: #f4f4f9;
+    color: #333333;
 }
 
 .header{
     grid-area: header;
     display: flex;
     align-content: center;
-    background-color: gray;
+    background-color: #007bff;
+    color: #ffffff;
     padding: 10px;
 }
 .main-content{
@@ -24,18 +26,21 @@ body{
 .dashboard{
     display: grid;
     grid-template-columns: 250px auto;
-    grid-template-rows: 60px auto;
+    grid-template-rows: 60px;
     grid-template-areas: 
         "sidebar header"
         "sidebar main";
     height: 100vh;
+    /*background-color: aqua;*/
 }
 
 .sidebar{
-    background-color: aqua;
+    background-color: #333333;
+    color: #ffffff;
     border: 2px;
     grid-area: sidebar;
     align-content: center;
+    margin-top: -650px; /* Moves the sidebar itself up */
 }
 
 .projects{
@@ -46,7 +51,8 @@ body{
 }
 
 .project-card{
-    background-color: aqua;
+    background-color: #007bff;
+    color: white;
     padding: 10px;
     margin-top: 10px;
     border-radius: 5px; /* Optional: Rounded corners */
@@ -55,7 +61,8 @@ body{
 .user-info{
     align-content: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: larger;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .ideas{
@@ -72,7 +79,7 @@ body{
 }
 
 .ideas-items li{
-    background-color: aqua; /* Light background for visibility */
+    background-color: #e7f0f7; /* Light background for visibility */
     padding: 20px; /* Adds padding to increase height */
     margin: 10px 0; /* Adds spacing between items */
     text-align: center; /* Centers the text */
@@ -95,7 +102,7 @@ body{
 }
 
 .hobbies-items li{
-    background-color: aqua; /* Light background for visibility */
+    background-color: #e7f0f7; /* Light background for visibility */
     padding: 20px; /* Adds padding to increase height */
     margin: 10px 0; /* Adds spacing between items */
     text-align: center; /* Centers the text */
@@ -111,12 +118,15 @@ h2{
 
 .dashboard-header{
     text-align: center;
+    margin-bottom: 0;
+    color:#ffffff;
 }
 
 .dashboard-items {
     list-style: none; /* Removes default bullets */
     padding: 0;
-    margin: 0;
+    margin: 0px;
+    
 }
 
 .dashboard-items li {
@@ -126,6 +136,16 @@ h2{
     text-align: center; /* Centers the text */
     font-size: 18px; /* Optional: Increase font size */
     border-radius: 5px; /* Optional: Rounded corners */
+    cursor: pointer;
+}
+
+.dashboard-items li:hover{
+    background-color: #e7e7e7;
+    color: black
+}
+
+.dashboard-items li:first-child { /* Assuming the first item is "Home" */
+    margin-top: 100px; /* Move this button down */
 }
 
 img{
