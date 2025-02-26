@@ -212,6 +212,7 @@ h2{
 }
 
 .dashboard-header{
+    margin-top: 100px;
     text-align: center;
     margin-bottom: 0;
     color:#ffffff;
@@ -242,13 +243,34 @@ h2{
 }
 
 .dashboard-items li:first-child { /* Assuming the first item is "Home" */
-    margin-top: 100px; /* Move this button down */
+    margin-top: 85px; /* Move this button down */
 }
 
 .dashboard-items li i {
     margin-right: 10px; /* Adjust the space between the icon and the text */
     font-size: 20px; /* Icon size */
     color: #007bff; /* Icon color */
+}
+
+.project-card{
+    background-color: #007bff; /* Light background for visibility */
+    padding: 20px; /* Adds padding to increase height */
+    margin: 10px 0; /* Adds spacing between items */
+    text-align: center; /* Centers the text */
+    font-size: 18px; /* Optional: Increase font size */
+    border-radius: 5px; /* Optional: Rounded corners */
+    cursor: pointer;
+    transition: transform 0.3s ease; /* Smooth transition for scaling */
+}
+
+.project-card:hover{
+    background-color: #333333;
+    color: white;
+    transform: scale(1.05); /* Enlarge the item to 105% of its original size */
+}
+.project-card i{
+    margin-right: 10px; /* Adjust the space between the icon and the text */
+    font-size: 20px; /* Icon size */
 }
 
 img{
@@ -261,3 +283,31 @@ img{
     object-fit: cover;
     border-radius: 5px;
   }
+
+.big-image{
+    display:block;
+    height:250px;
+    width: 350px;
+    margin-top:20px;
+    margin-left: 70px;
+    align-content: center;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.header-button{
+    margin-left: 80px;
+    border-radius: 25%;
+    margin-top: 25px;
+    color: white;
+    background-color: black;
+    font-size: 12px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    transition: transform 0.3s ease; /* Smooth transition for scaling */
+}
+
+.header-button:hover{
+    background-color: #333333;
+    color: white;
+    transform: scale(1.05); /* Enlarge the item to 105% of its original size */
+}
