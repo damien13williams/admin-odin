@@ -1,6 +1,6 @@
 # **Admin-Odin**
 
-## **Library Project**
+## **Admin Project**
 This project is part of the Intermediate HTML and CSS unit in the Odin Project under the "Grid" chapter. It is a simple admin dashboard that allows users to see their projects, hobbies, and ideas for the future. I take it as a way to look at everything I have done and hopefully after I complete the Odin project it will be improved and full of eveyrthing I have done all in one "admin page" that is really like a portfolio of myself to show in the future.
 
 ---
@@ -8,13 +8,13 @@ This project is part of the Intermediate HTML and CSS unit in the Odin Project u
 ## **Application Screenshots**
 
 ### **Home Admin Page**  
-![Admin Page Screenshot]()  
+![Admin Page Screenshot](images/admin.png)  
 
 ### **Hover Feature**  
-![Hover Screenshot]()  
+![Hover Screenshot](images/hover.png)  
 
 ### **Search Bar Feature**  
-![Search Bar Screenshot]()  
+![Search Bar Screenshot](images/search.png)  
 
 ---
 
@@ -45,3 +45,15 @@ This project is part of the Intermediate HTML and CSS unit in the Odin Project u
 2. Hover over the webpage to see the different css styles like color changes.
 
 ---
+
+## **Future Improvements Planned**
+- **JavaScript Implementation:** To add logic to go to different pages and add or edit.
+- **Improve CSS:** Make the page more appealing and cleaner
+- **Search Bar:** Add js to the search bar.
+
+---
+
+## **Learning Outcomes**
+- **CSS Style** Improved understanding of grids and css styling.
+- **Nesting:** Gained experience in nesting elements in HTML.
+
